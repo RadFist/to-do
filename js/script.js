@@ -8,7 +8,6 @@ function addTask(){
         let li = document.createElement("li")
         li.innerHTML =input.value;
         list.appendChild(li);
-        li.classList.add("before:bg-uncheked");
         let span = document.createElement("span");
         span.innerHTML = "\u00d7";
         li.appendChild(span);
@@ -20,8 +19,6 @@ function addTask(){
 list.addEventListener("click",function(e){
     if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked")
-        e.target.classList.toggle("before:bg-checked")
-        e.target.classList.toggle("before:bg-uncheked")
         saveData();
     }
     else if(e.target.tagName === "SPAN"){

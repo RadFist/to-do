@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'uncheked': "url('/src/IMG/unchecked.png')",
-        'checked': "url('/src/IMG/checked.png')",
+        'uncheked': "url('/src/unchecked.png')",
+        'checked': "url('/src/centang.png')"
       }
     },
   }, 

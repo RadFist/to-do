@@ -14,15 +14,15 @@ ul li{
 ul li::before{
     content: '';
     position: absolute;
-    height: 28px;    
-    width: 28px;
+    height: 30px;    
+    width: 30px;
     border-radius: 50%;
     background-size: cover; 
     background-size: cover;
     background-position: center;
     top: 12px;
     left: 8px;
-    background-image: url(IMG/checked.png);
+    background-image: url(/src/unchecked.png);
 }
 
 ul li.checked{
@@ -30,11 +30,10 @@ ul li.checked{
     text-decoration: line-through;
 }
 
-ul li.checked{
-    color: #555;
-    text-decoration: line-through;
-    background-image: url(IMG/checked.png);
+ul li.checked::before{
+    background-image: url(/src/centang.png);
 }
+
 
 ul > li > span{
     position: absolute;
