@@ -713,7 +713,7 @@ ul li::before{
   background-position: center;
   top: 12px;
   left: 8px;
-  background-image: url('/assets/unchecked.png');
+  background-image: url("../assets/unchecked.png");
 }
 
 ul li.checked{
@@ -722,7 +722,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-  background-image: url(./assets/centang.png);
+  background-image: url("../assets/centang.png");
 }
 
 ul > li > span{
