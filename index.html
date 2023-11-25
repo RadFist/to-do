@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>To-do-List</title>
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <div class="w-full max-w-xl   m-auto ">        
+        <div class="p-10 bg-purple-300 rounded-lg mt-20">
+          <h2 class="flex items-center font-serif text-xl mb-6 font-bold text-green-600">To-do-list <img width="30px" class="ml-2" src="src/IMG/icon.png "></h2>
+          <div class="flex flex-row items-center justify-between rounded-full bg-white">
+            <input class="outline-none flex-1 bg-transparent p-2 pl-3" type="text" id="input-box" placeholder="input your task here">
+            <button class="hover:text-white hover:bg-green-600 border-none outline-none px-7 py-4 cursor-pointer rounded-full text-xl bg-green-700" onclick="addTask()">Add</button>
+          </div>
+          <ul  id="list-container">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
