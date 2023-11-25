@@ -6,7 +6,6 @@ module.exports = {
       backgroundImage: {
         'uncheked': "url('/src/IMG/unchecked.png')",
         'checked': "url('/src/IMG/checked.png')",
-        'test': "url('/src/IMG/checked.png')",
       }
     },
   }, 

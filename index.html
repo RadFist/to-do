@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="dist/output.css" rel="stylesheet">
   <title>To-do-List</title>
 </head>
 <body>
@@ -17,12 +17,12 @@
             <input class="outline-none flex-1 bg-transparent p-2 pl-3" type="text" id="input-box" placeholder="input your task here">
             <button class="hover:text-white hover:bg-green-600 border-none outline-none px-7 py-4 cursor-pointer rounded-full text-xl bg-green-700" onclick="addTask()">Add</button>
           </div>
-          <ul  id="list-container">
+          <ul  id="list-container" class="before:bg-uncheked">
           </ul>
         </div>
       </div>
     </div>
   </section>
-  <script src="js/script.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 </html>
