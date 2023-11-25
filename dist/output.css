@@ -713,7 +713,7 @@ ul li::before{
   background-position: center;
   top: 12px;
   left: 8px;
-  background-image: url(src/unchecked.png);
+  background-image: url(/src/unchecked.png);
 }
 
 ul li.checked{
