@@ -22,7 +22,11 @@ ul li::before{
     background-position: center;
     top: 12px;
     left: 8px;
+<<<<<<< HEAD
     background-image: url(../assets/unchecked.png);
+=======
+    background-image: url("main/assets/centang.png");
+>>>>>>> e7b3381521baf4713606d195b558d20c5800eb38
 }
 
 ul li.checked{
@@ -31,7 +35,11 @@ ul li.checked{
 }
 
 ul li.checked::before{
+<<<<<<< HEAD
     background-image: url("../assets/centang.png");
+=======
+    background-image: url("main/assets/centang.png");
+>>>>>>> e7b3381521baf4713606d195b558d20c5800eb38
 }
 
 
