@@ -23,16 +23,19 @@ ul li::before{
     top: 12px;
     left: 8px;
 
-    background-image: url(../assets/unchecked.png);
+    /* for github */
+    background-image: url(".assets/unchecked.png");
 }
+
 
 ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
 
+/* for github*/
 ul li.checked::before{
-    background-image: url("../assets/centang.png");
+    background-image: url("assets/centang.png");
 
 }
 
