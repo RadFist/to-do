@@ -629,10 +629,6 @@ video {
   justify-content: space-between;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .overflow-scroll {
   overflow: scroll;
 }
@@ -694,10 +690,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -706,6 +698,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pl-3 {
@@ -806,6 +803,15 @@ ul > li > span:hover{
   .md\:justify-start {
     justify-content: flex-start;
   }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -821,9 +827,18 @@ ul > li > span:hover{
     justify-content: flex-start;
   }
 
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .lg\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
   }
 }
 
