@@ -690,19 +690,14 @@ video {
   padding: 0.75rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .pl-3 {
@@ -753,7 +748,7 @@ ul li::before{
   background-position: center;
   top: 12px;
   left: 8px;
-  background-image: url("assets/unchecked.png");
+  background-image: url(../assets/unchecked.png);
 }
 
 ul li.checked{
@@ -762,7 +757,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-  background-image: url("assets/centang.png");
+  background-image: url("../assets/centang.png");
 }
 
 ul > li > span{
