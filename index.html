@@ -8,14 +8,14 @@
 </head>
 <body>
 
-  <section>
+  <section class="min-h-screen p-10 bg-gradient-to-b from-indigo-400 to-pink-400  h-full w-full">
     <div class="container">
-      <div class="w-full max-w-xl   m-auto ">        
-        <div class="p-10 bg-purple-300 rounded-lg mt-20">
-          <h2 class="flex items-center font-serif text-xl mb-6 font-bold text-green-600">To-do-list <img width="30px" class="ml-2" src="assets/icon.png"></h2>
+      <div class="flex justify-center">        
+        <div class="p-10 lg:w-full md:w-full md:max-w-xl lg:max-w-2xl bg-purple-300 rounded-2xl mt-10">
+          <h2 class=" flex justify-center md:justify-start lg:px-3 lg:justify-start items-center font-serif text-xl mb-6 font-bold text-indigo-700">To-do-list <img width="30px" class="ml-2" src="assets/icon.png"></h2>
           <div class="flex flex-row items-center justify-between rounded-full bg-white">
             <input class="outline-none flex-1 bg-transparent p-2 pl-3" type="text" id="input-box" placeholder="input your task here">
-            <button class="hover:text-white hover:bg-green-600 border-none outline-none px-7 py-4 cursor-pointer rounded-full text-xl bg-green-700" onclick="addTask()">Add</button>
+            <button class="hover:text-white hover:bg-indigo-600 border-none outline-none px-7 py-4 cursor-pointer rounded-full text-xl bg-indigo-700" onclick="addTask()">Add</button>
           </div>
           <ul  id="list-container">
           </ul>
